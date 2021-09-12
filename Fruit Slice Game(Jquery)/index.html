@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Fruit Slice Game</title>
+    <link rel="stylesheet" href="CSS/styling.css" type="text/css">
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="score">
+            score: <span id="scoreValue">0</span>
+        </div>
+        <div id="trialsLeft">
+            
+        </div>
+        <div id="correct">
+            CORRECT
+        </div>
+        <div id="wrong">
+            TRY AGAIN
+        </div>
+        <div id="fruitContainer">
+            <img id="fruit1" class="fruit">            
+        </div>
+        <div id="instruction">
+            Catch Fruits
+        </div>
+        <div id="startReset">
+            START GAME
+        </div>
+        <div id="gameover">
+            
+        </div>
+    </div>
+    <audio id="sliceSound">
+        <source src="audio/slicefruit.mp3"></source>
+        <source src="audio/slicefruit.ogg"></source>
+    </audio>
+    <script src="JS/jquery.js"></script>
+</body>
+</html>
